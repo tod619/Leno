@@ -181,6 +181,22 @@ img {
   max-width: 500px;
 }
 
+.hero__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.hero__button {
+  padding: 1rem 2rem;
+}
+
+.hero__button i {
+  margin-right: 0.5rem;
+}
+
 /* End: Hero */
 
 /* Start: Media Queries */
