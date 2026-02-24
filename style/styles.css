@@ -125,6 +125,49 @@ img {
 
 /* End: Navbar */
 
+/* Start: Hero */
+
+.hero {
+  background: #000 url("../images/header-background.jpg") center center/cover
+    no-repeat;
+  padding: 11.5rem 2rem 8rem;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero__content {
+  max-width: 500px;
+}
+
+.hero__title {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+.hero__title--primary {
+  color: var(--primary-color);
+}
+
+.hero__description {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.hero__image img {
+  max-width: 500px;
+}
+
+/* End: Hero */
+
 /* Start: Media Queries */
 @media (max-width: 768px) {
   .navbar__menu {
