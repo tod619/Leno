@@ -200,6 +200,34 @@ img {
 /* End: Hero */
 
 /* Start: Media Queries */
+@media (max-width: 992px) {
+  .hero {
+    padding-top: 10rem;
+    text-align: center;
+  }
+
+  .hero__container {
+    flex-direction: column;
+  }
+
+  .hero_title {
+    font-size: 2.3rem;
+  }
+
+  .hero__buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hero__button {
+    width: 100%;
+  }
+
+  .hero__image img {
+    max-width: 350px;
+  }
+}
+
 @media (max-width: 768px) {
   .navbar__menu {
     display: none;
