@@ -204,6 +204,21 @@ img {
 
 /* End: Hero */
 
+/* Start: Testimonials */
+.testimonials {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.testimonials__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+/* End: Testimonials */
+
 /* Start: Media Queries */
 @media (max-width: 992px) {
   .hero {
