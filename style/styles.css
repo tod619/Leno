@@ -217,6 +217,24 @@ img {
   align-items: center;
   justify-content: center;
 }
+
+.testimonials__card {
+  padding: 0 3rem;
+}
+
+.testimonials__image img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+}
+
+.testimonials__card-text {
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
 /* End: Testimonials */
 
 /* Start: Media Queries */
