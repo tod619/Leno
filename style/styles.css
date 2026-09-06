@@ -237,6 +237,28 @@ img {
 }
 /* End: Testimonials */
 
+/* Start: Features */
+.features {
+  background-color: var(--tertiary-color);
+  padding: 6rem 2rem;
+}
+
+.features__container {
+  text-align: center;
+}
+
+.features__title {
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.features__description {
+  max-width: 600px;
+  margin: 1rem auto 4rem;
+}
+/* End: Features */
+
 /* Start: Media Queries */
 @media (max-width: 992px) {
   .hero {
