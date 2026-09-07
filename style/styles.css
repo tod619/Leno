@@ -376,6 +376,34 @@ img {
   border-top: 1rem solid transparent;
   border-bottom: 1rem solid transparent;
 }
+
+/* Animation */
+.preview__video-play-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  display: block;
+  width: 4.75rem;
+  height: 4.75rem;
+  background: #00c9db;
+  border-radius: 50%;
+  animation: pulse-border 1500ms ease-out infinite;
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 0;
+  }
+}
 /* End: Play BTN */
 
 /* End: Preview */
