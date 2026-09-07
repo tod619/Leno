@@ -300,6 +300,38 @@ img {
 }
 /* End: Features */
 
+/* Start: Preview */
+.preview {
+  background: url("../images/video-background.jpg") center center/cover
+    no-repeat;
+}
+
+.preview__container {
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.preview__title {
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.preview__description {
+  max-width: 600px;
+  margin: 1rem auto 4rem;
+}
+
+.preview__video-wrapper {
+  position: relative;
+}
+
+.preview__video-wrapper img {
+  max-width: 900px;
+  border-radius: 10px;
+}
+/* End: Preview */
+
 /* Start: Media Queries */
 @media (max-width: 992px) {
   .hero {
