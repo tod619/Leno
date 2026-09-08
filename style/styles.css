@@ -406,6 +406,11 @@ img {
 }
 /* End: Play BTN */
 
+/* Modal Style */
+.modal {
+  display: none;
+}
+
 /* End: Preview */
 
 /* Start: Media Queries */
