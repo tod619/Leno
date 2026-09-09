@@ -439,6 +439,36 @@ img {
 
 /* End: Preview */
 
+/* Start: Details */
+.details {
+  padding: 9rem 2rem;
+}
+
+.details__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.details__grid-content {
+  max-width: 500px;
+  width: 100%;
+}
+
+.details__grid-heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.details__grid-description {
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+/* End: Details */
+
 /* Start: Media Queries */
 @media (max-width: 992px) {
   .hero {
