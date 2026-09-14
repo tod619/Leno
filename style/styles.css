@@ -672,6 +672,26 @@ img {
     margin-top: 4rem;
   }
   /* End: Details */
+
+  /* Start: Download */
+  .download {
+    padding-top: 10rem;
+    text-align: center;
+  }
+
+  .download__container {
+    flex-direction: column-reverse;
+  }
+
+  .download__buttons {
+    flex-direction: column;
+  }
+
+  .download__button {
+    width: 100%;
+    padding: 0.7rem;
+  }
+  /* End: Download */
 }
 
 @media (max-width: 768px) {
